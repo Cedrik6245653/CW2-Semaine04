@@ -2,6 +2,7 @@
 
 html {
     box-sizing: border-box;
+    font-size: 100%;
 }
 
 *,*::before,*::after{
@@ -17,10 +18,109 @@ body {
     margin: 0 auto;
 }
 
-/* ===== TEXTE ===== */
+/* ===== SECTIONS ===== */
 
+/* --- En-tête --- */
 
+header {
+    background-color: #34495E;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 25px;
+    font-weight: 900;
+    padding: 1px 0;
+    font-size: 35px;
+    text-align: center;
+}
 
+/* --- Section Principale --- */
 
-/* ===== SECTION ===== */
+.hero {
+    padding: 40px 0;
+}
 
+h2 {
+    text-align: right;
+    font-family: "Lato", sans-serif;
+    color: gray;
+    letter-spacing: 3px;
+    font-size: 2.5rem;
+    line-height: 22px;
+}
+
+/* --- Articles --- */
+
+.conteneurBoites {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+article {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 10px 0;
+}
+
+article:hover {
+    background-color: #BDC3C7;
+}
+
+article h3 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 150%; 
+    margin-top: 75px;
+}
+
+.cercle {
+    width: 190px;
+    height: 190px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #D35400;
+    background-color: white;
+}
+
+.cercle h3 {
+    color: #D35400;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/* --- Section du Bas --- */
+
+.conteneurTexte {
+    font-family: "Roboto", sans-serif;
+    line-height: 35px;
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+/* --- Pied de page --- */
+
+footer {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    padding: 15px 0;
+    background-color: #2980B9;
+}
+
+.flexFooter {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    text-align: center;
+    border: 1px solid #BDC3C7;
+}
