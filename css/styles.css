@@ -1,0 +1,26 @@
+/* ===== BASE ===== */
+
+html {
+    box-sizing: border-box;
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+body {
+    background-color: white;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* ===== TEXTE ===== */
+
+
+
+
+/* ===== SECTION ===== */
+
